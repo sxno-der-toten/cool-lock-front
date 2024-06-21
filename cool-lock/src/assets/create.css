@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+
+.container {
+    background: linear-gradient(to right, #2c3e50, #ff0d00 100%);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.container h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.container p {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.container button {
+    background-color: white;
+    border: none;
+    color: #f10c00;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #f0f0f0;
+}
